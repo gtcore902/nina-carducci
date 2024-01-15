@@ -12,7 +12,15 @@ Main optimizations are:
 * Many tags are missing and/or incorrectly filled in
 * And others optimizations
 
-More information about technical criteria : [Openclassrooms](https://openclassrooms.com/)
+:white_check_mark:The goal is to achieve a minimum score of 90% with the [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) performance monitoring tool.
+
+:white_check_mark:The website must comply with the minimum accessibility rules defined by the WCAG ([Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/docs/)).
+
+:white_check_mark:The development must adhere to best practices.
+
+:white_check_mark:SEO should also be above 90%.
+
+More information about technical criteria : [openclassrooms](https://openclassrooms.com/)
 
 ## Contributing
 _No contribution needed but you can use this repository._
