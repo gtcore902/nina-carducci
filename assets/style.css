@@ -83,9 +83,10 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
+	font-size: 1rem;
 	width: 60%;
 }
-#about-me p {
+#about-me p:not(.about-me__introduction) {
 	width: 80%;
 	font-size: 14px;
 }
