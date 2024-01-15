@@ -6,12 +6,12 @@
 	<title>Nina Carducci photographe pour concert mariage portrait entreprise</title>
 	<meta name="description" content="Besoin d'un photographe professionnel pour vos shooting, albums photos et retouches ? 
 		Un souvenir unique ! Contactez-moi pour immortaliser vos événements importants.">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
@@ -91,7 +91,13 @@
 		</section>
 		<section id="about">
 			<div class="picture left">
-				<img loading="lazy" src="./assets/images/portrait-nina-carducci.webp" alt="Portrait de Nina Carducci, photographe professionnelle">
+				<img 
+				loading="lazy" 
+				sizes="(max-width: 500px) 100vw, 500px"
+				srcset="
+				./assets/images/portrait-nina-carducci_whmml8_c_scale,w_200.webp 200w,
+				./assets/images/portrait-nina-carducci_whmml8_c_scale,w_500.webp 500w" 
+				alt="Portrait de Nina Carducci, photographe professionnelle">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
@@ -184,7 +190,14 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img loading="lazy" src="./assets/images/camera-nina-carducci.webp" alt="Appareil photo de Nina Carducci, photographe professionnelle">
+					<img 
+					loading="lazy" 
+					sizes="(max-width: 500px) 100vw, 500px"
+					srcset="
+					./assets/images/camera-nina-carducci_kwe8u5_c_scale,w_200.webp 200w,
+					./assets/images/camera-nina-carducci_kwe8u5_c_scale,w_496.webp 496w,
+					./assets/images/camera-nina-carducci_kwe8u5_c_scale,w_500.webp 500w" 
+					alt="Appareil photo de Nina Carducci, photographe professionnelle">
 				</div>
 			</div>
 		</section>
